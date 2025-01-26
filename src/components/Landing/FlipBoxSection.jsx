@@ -1,4 +1,6 @@
 import React from "react";
+import o1 from "../../assets/o1.png";
+import o2 from "../../assets/o2.png"; 
 
 const FlipBoxSection = () => {
   return (
@@ -19,7 +21,7 @@ const FlipBoxSection = () => {
           <div className="flex flex-col justify-center items-center">
             <div className="flex text-xl font-semibold items-center justify-center p-2">
               <img
-                src="src/assets/o1.png"
+                src={o1}
                 alt="Description"
                 className="w-auto h-auto md:w-auto md:h-auto"
               />
@@ -38,7 +40,7 @@ const FlipBoxSection = () => {
           <div className="flex flex-col justify-center items-center">
             <div className="flex text-xl font-semibold items-center justify-center p-2">
               <img
-                src="src/assets/o2.png"
+                src={o2}
                 alt="Description"
                 className="w-auto h-auto md:w-auto md:h-auto"
               />
